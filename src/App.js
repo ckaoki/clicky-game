@@ -10,20 +10,24 @@ class App extends React.Component {
     characters
    };
 
-  getCharacter = () => {return this.state.characters[0]};
+  randomizeCharacters = () => {let array = [this.state.characters[4],this.state.characters[1]];
+    return array.map(character => (
+            <CharacterCard id={character.id} key={character.id} name={character.name} image={character.image}/>
+    ));            
+  }
   
   render(){
-    {console.log(this.state.characters[0].image)};
+    // {console.log(this.state.characters[0].image)};
+    let indexes = this.randomize;
     return (
       <Wrapper>
         {/* <Navbar /> */}
         <Wrapper></Wrapper>
         <Wrapper></Wrapper>
-        <Wrapper> 
-            {this.state.characters.map(character => (
-            <CharacterCard id={character.id} key={character.id} name={character.name} image={character.image}/>
-            ))}
-        </Wrapper>
+        {/* <Wrapper>  */}
+
+        {this.randomizeCharacters()}
+  
       </Wrapper>
     )
   }
