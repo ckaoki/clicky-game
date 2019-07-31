@@ -1,0 +1,15 @@
+ul {
+	min-width: 1000px;
+	list-style: none;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    display: inline;
+    padding-right:10px;
+}
+
+#title{
+    font-size: 24pt;
+}
