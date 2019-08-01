@@ -9,7 +9,8 @@ class App extends Component {
   state = {
     characters,
     score:0,
-    topScore:0
+    topScore:0,
+    message:"Click an image to begin!"
    };
 
   shuffle = array => {
@@ -29,7 +30,7 @@ class App extends Component {
     this.state.characters.forEach(character => {
       character.clicked = false;
     });
-    alert(`Game Over.\nYour score: ${this.state.score}`);
+    this.setState({message:"Sorry, you lose! Click an image to begin!"});
     this.setState({score: 0});
     return true;
   }
@@ -37,7 +38,7 @@ class App extends Component {
   checkClickedAll = (clickCount) => {
     if(clickCount === this.state.characters.length)
     {
-      alert("You clicked every car!");
+      this.setState({message:"You clicked every car! Click an image to begin!"});
       this.setState({topScore: clickCount});
       this.state.characters.forEach(character => {
         character.clicked = false;
@@ -67,7 +68,7 @@ class App extends Component {
   render(){
     return (
       <Wrapper>
-        <Header score={this.state.score} topScore={this.state.topScore}/>
+        <Header message={this.state.message} score={this.state.score} topScore={this.state.topScore}/>
         {this.state.characters.map(character =>(
           <CharacterCard 
             checkAlreadyClicked = {this.checkAlreadyClicked}

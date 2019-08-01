@@ -8,8 +8,8 @@ const Header = props => {
                 <div className="col-4" id="title">
                     Clicky Game
                 </div>
-                <div className="col-4 text-center" id="direction">
-                    Click an image to begin!
+                <div className="col-4 text-center" id="message">
+                    {props.message}
                 </div>
                 <div className="col-4 text-right" id="scores">
                  Score: {props.score} | Top Score: {props.topScore}
