@@ -2,47 +2,55 @@
   {
     "id": 1,
     "name": "Lightning McQueen",
-    "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Lightning_McQueen.png"
-
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Lightning_McQueen.png",
+    "clicked":false
   },
   {
     "id": 2,
     "name": "Sally Carrera",
-    "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Sally_Carrera.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Sally_Carrera.png",
+    "clicked":false
   },
   {
     "id": 3,
     "name": "Mater",
-    "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Mater_%28Cars%29.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Mater_%28Cars%29.png",
+    "clicked":false
   },
   {
     "id": 4,
     "name": "Doc Hudson",
-    "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/Doc_Hudson.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/Doc_Hudson.png",
+    "clicked":false
   },
   {
     "id": 5,
     "name": "Luigi",
-    "image":"https://www.stickpng.com/assets/images/59db69a03752880e93e16ef7.png"
+    "image":"https://www.stickpng.com/assets/images/59db69a03752880e93e16ef7.png",
+    "clicked":false
   },
   {
     "id": 6,
     "name": "Chick Hicks",
-    "image":"https://vignette.wikia.nocookie.net/heroes-and-villians/images/1/1e/Chick_Hicks.png/revision/latest?cb=20171101013116"
+    "image":"https://vignette.wikia.nocookie.net/heroes-and-villians/images/1/1e/Chick_Hicks.png/revision/latest?cb=20171101013116",
+    "clicked":false
   },
   {
     "id": 7,
     "name": "Guido",
-    "image":"https://vignette.wikia.nocookie.net/pixar/images/1/10/Guido.png/revision/latest/scale-to-width-down/185?cb=20140314012724"
+    "image":"https://vignette.wikia.nocookie.net/pixar/images/1/10/Guido.png/revision/latest/scale-to-width-down/185?cb=20140314012724",
+    "clicked":false
   },
   {
     "id": 8,
     "name": "The King",
-    "image":"https://www.stickpng.com/assets/thumbs/59db69ed3752880e93e16efd.png"
+    "image":"https://www.stickpng.com/assets/thumbs/59db69ed3752880e93e16efd.png",
+    "clicked":false
   },
   {
     "id": 9,
     "name": "Lizzie",
-    "image":"https://vignette.wikia.nocookie.net/disney/images/3/31/Lizzie.png/revision/latest?cb=20151222133758"
+    "image":"https://vignette.wikia.nocookie.net/disney/images/3/31/Lizzie.png/revision/latest?cb=20151222133758",
+    "clicked":false
   }
 ]
